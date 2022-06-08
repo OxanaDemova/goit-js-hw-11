@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>Search something :)</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -14,13 +14,15 @@
   <body>
     <!-- ====== Search Form ======-->
     <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
-      <button type="submit">Search</button>
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..."  class="form-input"/>
+      <button type="submit" class="submit-btn">Search</button>
     </form>
   <!-- ====== IMG Cards ======-->
     <div class="gallery">
       <!-- Картки зображень -->
     </div>
+
+    <button type="button" class="load-more is-hidden">Load more</button>
     <script src="./index.js"></script>
   </body>
 </html>
